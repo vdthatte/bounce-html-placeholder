@@ -40,6 +40,11 @@
 		font-family: 'Roboto Slab', serif;
 	}
 
+	.inlineLink{
+		text-decoration: none;
+		color: #FF3131;
+	} 
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -76,5 +81,10 @@
 		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", color-emoji;
 		font-family: 'Roboto Slab', serif;
 	}
+
+	.inlineLink{
+		text-decoration: none;
+		color: #FF3131;
+	} 
 
 }
