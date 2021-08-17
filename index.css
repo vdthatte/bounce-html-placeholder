@@ -18,12 +18,10 @@
 	}
 
 	.container--waitlistapi {  /* outermost div containing the component */
-		padding-top: 100px;
-		color: black;
 	}      
 
     .container--waitlistapi > h1 { /* main heading */
-    	color: black;
+
     } 
  
 
@@ -143,29 +141,27 @@
 	}
 
 	.container--waitlistapi {  /* outermost div containing the component */
-		padding-top: 100px;
-		color: black;
+
 	}      
 
     .container--waitlistapi > h1 { /* main heading */
-    	color: black;
+   
     } 
 
 	.button--waitlistapi { /* main submit button */ 
-		color: white;
-		background-color: red;
+
 	}        
 
 	.input--waitlistapi { /* input fields */ 
-		color: white;
+
 	} 
 
 	.statusToggleLabel { /* "Signed up before?" label */ 
-		color: white;
+
 	}      
 
     .statusToggleLabel > a { /* "Check your status" link */
-    	color: white;
+
     }        
 
 	.tiktokLink{
