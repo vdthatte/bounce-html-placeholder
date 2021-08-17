@@ -84,10 +84,19 @@
 	}
 
 	#earlyaccess{
-		margin-top: 120%;
+		margin-top: 5%;
 		font-size: 26px;
 		font-weight: 800;
 		opacity: 0.8;
+	}
+
+	#tagline{
+		margin-top: 50%;
+		font-size: 36px;
+		font-weight: 800;
+		opacity: 0.8;
+		width: 90%;
+		margin-bottom: 70%;
 	}
 
 	#myBtn{
@@ -225,7 +234,7 @@
 	}
 
 	#earlyaccess{
-		margin-top: 30%;
+		margin-top: 5%;
 		font-size: 28px;
 		font-weight: 800;
 		opacity: 0.8;
@@ -282,6 +291,13 @@
 		z-index: -999;
 	}
 
-
+	#tagline{
+		margin-top: 15%;
+		font-size: 56px;
+		font-weight: 800;
+		opacity: 0.8;
+		width: 50%;
+		margin-bottom: 15%;
+	}
 
 }
