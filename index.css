@@ -2,48 +2,9 @@
 
 @media only screen and (max-width: 600px) {
 
-	body{
-		background-color: #ffffff;
-		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
-	}
-
-	p{
-		color: white;
-		margin: auto;
-		margin-top: 80%;
-		font-size: 6.6vw;
-		margin-bottom: 5%;
-		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", color-emoji;
-	}
-
-	.container--waitlistapi{
-		padding-top: 100px;
-	}
-
-	.tiktokLink{
-		color: #03cafc;
-		margin: auto;
-		text-decoration: none;
-		font-size: 6.6vw;
-		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", color-emoji;
-		text-decoration: none;
-	}
-
-	.mainPageLink{
-		color: #8E44AD;
-		margin: auto;
-		text-decoration: none;
-		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", color-emoji;
-		font-size: 4vw;
-		font-weight: 300;
-	}
-
-}
-
-@media only screen and (min-width: 600px) {
 
 	body{
-		background-color: #ffffff;
+		background-color: #000;
 		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
 	}
 
@@ -56,10 +17,15 @@
 		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", color-emoji;
 	}
 
-	.container--waitlistapi{
+	.container--waitlistapi {  /* outermost div containing the component */
 		padding-top: 100px;
-	}
+		color: black;
+	}      
 
+    .container--waitlistapi > h1 { /* main heading */
+    	color: black;
+    } 
+ 
 
 	.tiktokLink{
 		color: #03cafc;
@@ -71,12 +37,254 @@
 	}
 
 	.mainPageLink{
-		color: #8E44AD;
+		color: white;
 		margin: auto;
 		text-decoration: none;
 		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", color-emoji;
 		font-size: 1.3vw;
 		font-weight: 300;
 	}
+
+	  /* The Modal (background) */
+	.modal {
+	  display: none; /* Hidden by default */
+	  position: fixed; /* Stay in place */
+	  z-index: 1; /* Sit on top */
+	  left: 0;
+	  top: 0;
+	  width: 100%; /* Full width */
+	  height: 100%; /* Full height */
+	  overflow: auto; /* Enable scroll if needed */
+	  background-color: rgb(0,0,0); /* Fallback color */
+	  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	}
+
+	/* Modal Content/Box */
+	.modal-content {
+	  background-color: #fefefe;
+	  margin: 15% auto; /* 15% from the top and centered */
+	  margin-top: 50%;
+	  padding: 20px;
+	  border: 1px solid #888;
+	  width: 90%; /* Could be more or less, depending on screen size */
+	}
+
+	/* The Close Button */
+	.close {
+	  color: #aaa;
+	  float: right;
+	  font-size: 28px;
+	  font-weight: bold;
+	}
+
+	.close:hover,
+	.close:focus {
+	  color: black;
+	  text-decoration: none;
+	  cursor: pointer;
+	}
+
+	#earlyaccess{
+		margin-top: 150%;
+		font-size: 26px;
+		font-weight: 800;
+		opacity: 0.8;
+	}
+
+	#myBtn{
+	  background-color: black;
+	  border-width: 3px;
+	  border-radius: 20px;
+	  border-style: solid;
+	  color: gray;
+	  padding-left: 5%;
+	  padding-right: 5%;
+	  padding-top: 1%;
+	  padding-bottom: 1%;
+	  font-size: 22px;
+	  padding: 20px 20px 20px 20px;
+	  margin-top: 5%;
+	  margin-left: 0%;
+	  vertical-align: center;
+	  transition: 0.3s;
+	}
+
+	#go{
+		padding-left: 50px;
+		padding-right: 0%;
+	}
+
+	#back{
+		width: 300%;
+		height: 100%;
+		left: -90%;
+		top: -10%;
+		position: fixed;	
+		z-index: -999;
+		background-size: cover;         
+	}
+
+}
+
+@media only screen and (min-width: 600px) {
+
+	body{
+		background-color: #000;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+	}
+
+	p{
+		color: white;
+		margin: auto;
+		margin-top: 25%;
+		font-size: 2.5vw;
+		margin-bottom: 2%;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", color-emoji;
+	}
+
+	.container--waitlistapi {  /* outermost div containing the component */
+		padding-top: 100px;
+		color: black;
+	}      
+
+    .container--waitlistapi > h1 { /* main heading */
+    	color: black;
+    } 
+
+	.button--waitlistapi { /* main submit button */ 
+		color: white;
+		background-color: red;
+	}        
+
+	.input--waitlistapi { /* input fields */ 
+		color: white;
+	} 
+
+	.statusToggleLabel { /* "Signed up before?" label */ 
+		color: white;
+	}      
+
+    .statusToggleLabel > a { /* "Check your status" link */
+    	color: white;
+    }        
+
+	.tiktokLink{
+		color: #03cafc;
+		margin: auto;
+		text-decoration: none;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", color-emoji;
+		text-decoration: none;
+		font-size: 2vw;
+	}
+
+	.mainPageLink{
+		color: white;
+		margin: auto;
+		text-decoration: none;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", color-emoji;
+		font-size: 1.3vw;
+		font-weight: 300;
+	}
+
+	  /* The Modal (background) */
+	.modal {
+	  display: none; /* Hidden by default */
+	  position: fixed; /* Stay in place */
+	  z-index: 1; /* Sit on top */
+	  left: 0;
+	  top: 0;
+	  width: 100%; /* Full width */
+	  height: 100%; /* Full height */
+	  overflow: auto; /* Enable scroll if needed */
+	  background-color: rgb(0,0,0); /* Fallback color */
+	  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	  border-radius: 30px;
+	}
+
+	/* Modal Content/Box */
+	.modal-content {
+	  background-color: #fefefe;
+	  margin: 15% auto; /* 15% from the top and centered */
+	  padding: 20px;
+	  padding-bottom: 5%;
+	  border: 1px solid #888;
+	  width: 40%; /* Could be more or less, depending on screen size */
+	  border-radius: 30px;
+	}
+
+	/* The Close Button */
+	.close {
+	  color: #aaa;
+	  float: right;
+	  font-size: 28px;
+	  font-weight: bold;
+	}
+
+	.close:hover,
+	.close:focus {
+	  color: black;
+	  text-decoration: none;
+	  cursor: pointer;
+	}
+
+	#earlyaccess{
+		margin-top: 30%;
+		font-size: 28px;
+		font-weight: 800;
+		opacity: 0.8;
+	}
+
+	#myBtn{
+	  background-color: black;
+	  border-width: 3px;
+	  border-radius: 20px;
+	  border-style: solid;
+	  color: gray;
+	  padding-left: 5%;
+	  padding-right: 5%;
+	  padding-top: 1%;
+	  padding-bottom: 1%;
+	  font-size: 24px;
+	  padding: 20px 20px 20px 20px;
+	  margin-top: 1%;
+	  margin-left: 0%;
+	  vertical-align: center;
+	  transition: 0.3s;
+	}
+
+	#myBtn:hover{
+	  background-color: white;
+	  border-width: 3px;
+	  border-radius: 20px;
+	  border-style: solid;
+	  color: black;
+	  padding-left: 5%;
+	  padding-right: 5%;
+	  padding-top: 1%;
+	  padding-bottom: 1%;
+	  font-size: 24px;
+	  padding: 20px 20px 20px 20px;
+	  margin-top: 1%;
+	  margin-left: 0%;
+	  vertical-align: center;
+	  transition: 0.3s;
+	  border-color: white;
+	}
+
+	#go{
+		padding-left: 50px;
+		padding-right: 0%;
+	}
+
+	#back{
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		position: fixed;	
+		z-index: -999;
+	}
+
+
 
 }
