@@ -100,11 +100,11 @@
 	}
 
 	#myBtn{
-	  background-color: black;
+	  background-color: white;
 	  border-width: 3px;
 	  border-radius: 20px;
 	  border-style: solid;
-	  color: gray;
+	  color: #F5B7B1;
 	  padding-left: 5%;
 	  padding-right: 5%;
 	  padding-top: 1%;
@@ -115,6 +115,7 @@
 	  margin-left: 0%;
 	  vertical-align: center;
 	  transition: 0.3s;
+	  border-color: white;
 	}
 
 	#go{
