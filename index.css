@@ -104,18 +104,19 @@
 	  border-width: 3px;
 	  border-radius: 20px;
 	  border-style: solid;
-	  color: #F5B7B1;
+	  color: red;
 	  padding-left: 5%;
 	  padding-right: 5%;
 	  padding-top: 1%;
 	  padding-bottom: 1%;
-	  font-size: 22px;
+	  font-size: 18px;
 	  padding: 20px 20px 20px 20px;
 	  margin-top: 5%;
 	  margin-left: 0%;
 	  vertical-align: center;
 	  transition: 0.3s;
 	  border-color: white;
+	  font-weight: 700;
 	}
 
 	#go{
